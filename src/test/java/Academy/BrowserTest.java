@@ -16,16 +16,16 @@ public class BrowserTest {
 	@Test
 	public void getData()
 	{
-		System.out.println("Hello Guys Phanikumar");
+		System.out.println("Hello Guys PhanikumarG");
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
-		System.out.println("Hello Guys Phanikumar");
+		System.out.println("Hello Guys PhanikumarG");
 		driver.get("https://rahylshettyacademy.azurewebsites.net/webapp/");
 		String text =driver.findElement(By.tagName("h1")).getText();
 		System.out.println(text);
 		Assert.assertTrue(text.equalsIgnoreCase("http://localhost:8080/webapp/"));
 		driver.close();
-		System.out.println("Hello Guys Phanikumar");
+		System.out.println("Hello Guys PhanikumarG");
 	
 		
 		
